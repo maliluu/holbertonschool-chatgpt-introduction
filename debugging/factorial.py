@@ -1,6 +1,6 @@
-def factorial(n):
+  def factorial(n):
   result = 1
-  while n >= 0:  # check if n is non-negative
+  while n >= 0:
     result *= n
     n -= 1
   return result
