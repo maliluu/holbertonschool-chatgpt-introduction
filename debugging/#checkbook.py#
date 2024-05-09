@@ -1,0 +1,15 @@
+Error:A
+                print("Invalid input. Please enter a valid amount.")
+elif action.lower() == 'withdraw':
+                try:
+                                    amount = float(input("Enter the amount to withdraw: $"))
+                                                    cb.withdraw(amount)
+                except ValueError:
+                                    print("Invalid input. Please enter a valid amount.")
+elif action.lower() == 'balance':
+                cb.get_balance()
+else:
+                print("Invalid command. Please try again.")
+
+                if __name__ == "__main__":
+                        main()~
